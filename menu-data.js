@@ -44,7 +44,7 @@ const MENU = [
             "price": 150
           }
         ],
-        "image": null,
+        "image": "images/papas-gratinadas.png",
         "sourcePage": 1
       },
       {
