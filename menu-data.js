@@ -13,7 +13,7 @@ const MENU = [
         "price": 95,
         "description": "Papas confitadas, acompañadas de ali oli, salsa picante y paprika.",
         "variants": [],
-        "image": null,
+        "image": "images/papas-bravas.webp",
         "sourcePage": 1
       },
       {
