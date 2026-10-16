@@ -22,7 +22,7 @@ const MENU = [
         "price": 240,
         "description": "Camarones salteados en mantequilla con ajo, chile comapeño, chimichurri y un toque de parmesano.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Camarones Nueva Orleans.webp",
         "sourcePage": 1
       },
       {
@@ -53,7 +53,7 @@ const MENU = [
         "price": 160,
         "description": "Cremoso puré de papa acompañado de 150 g de chistorra; gratinado con nuestro tradicional queso holandés.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Puré de papa con chistorra al gratín.jpg",
         "sourcePage": 1
       },
       {
@@ -75,7 +75,7 @@ const MENU = [
             "price": 150
           }
         ],
-        "image": null,
+        "image": "imagenes/Fondue.jfif",
         "sourcePage": 1
       },
       {
@@ -93,7 +93,7 @@ const MENU = [
         "price": 180,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Mollejas de ternera.png",
         "sourcePage": 1
       },
       {
@@ -102,7 +102,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Guacamole.jpg",
         "sourcePage": 1
       },
       {
@@ -111,7 +111,7 @@ const MENU = [
         "price": 80,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Papas gajo.jpg",
         "sourcePage": 1
       },
       {
@@ -120,7 +120,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Papas a la francesa.jpg",
         "sourcePage": 1
       }
     ]
@@ -146,7 +146,7 @@ const MENU = [
             "price": 120
           }
         ],
-        "image": null,
+        "image": "imagenes/Tapas.webp",
         "sourcePage": 2
       }
     ]
@@ -163,7 +163,7 @@ const MENU = [
         "price": 150,
         "description": "3 piezas. Preparados con tortilla de harina.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Camarón al gratín.jfif",
         "sourcePage": 2
       },
       {
@@ -172,7 +172,7 @@ const MENU = [
         "price": 100,
         "description": "3 piezas. Preparados con tortilla de harina.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Fajitas de pollo al gratín.jfif",
         "sourcePage": 2
       },
       {
@@ -181,7 +181,7 @@ const MENU = [
         "price": 150,
         "description": "3 piezas. Preparados con tortilla de harina.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Arrachera gratinada.jfif",
         "sourcePage": 2
       },
       {
@@ -190,7 +190,7 @@ const MENU = [
         "price": 150,
         "description": "4 piezas. Preparados con tortilla de maíz y guacamole.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Carne asada.jpg",
         "sourcePage": 2
       },
       {
@@ -199,7 +199,7 @@ const MENU = [
         "price": 140,
         "description": "3 piezas. Preparados con tortilla de harina.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Chistorra.jpg",
         "sourcePage": 2
       }
     ]
@@ -216,7 +216,7 @@ const MENU = [
         "price": 150,
         "description": "Arrachera gratinada, con pimientos y cebollas salteadas y tomate. Acompañado de papas chips.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Baguette Arrachera.jfif",
         "sourcePage": 3
       },
       {
@@ -225,7 +225,7 @@ const MENU = [
         "price": 120,
         "description": "Pechuga gratinada y tomate. Acompañado de papas chips.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Baguette Pollo.jpg",
         "sourcePage": 3
       },
       {
