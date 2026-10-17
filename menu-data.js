@@ -485,7 +485,7 @@ const MENU = [
         "price": 105,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Crepa salada Champiñón y queso gouda.jfif",
         "sourcePage": 6
       }
     ]
@@ -537,7 +537,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Postre Cheesecake.jfif",
         "sourcePage": 6
       },
       {
@@ -546,7 +546,7 @@ const MENU = [
         "price": 80,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Postre Pan de nata.jpg",
         "sourcePage": 6
       },
       {
@@ -555,7 +555,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Postre Pastel de zanahoria.jpg",
         "sourcePage": 6
       },
       {
@@ -564,7 +564,7 @@ const MENU = [
         "price": 120,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Postre Pan de elote con helado de vainilla.jfif",
         "sourcePage": 6
       }
     ]
@@ -581,7 +581,7 @@ const MENU = [
         "price": 45,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Bebidas calientes Americano.webp",
         "sourcePage": 7
       },
       {
@@ -590,7 +590,7 @@ const MENU = [
         "price": 45,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Bebidas calientes Espresso.jpeg",
         "sourcePage": 7
       },
       {
@@ -599,7 +599,7 @@ const MENU = [
         "price": 55,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Bebidas calientes Latte.jpg",
         "sourcePage": 7
       },
       {
@@ -608,7 +608,7 @@ const MENU = [
         "price": 55,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Bebidas calientes Capuccino.jpg",
         "sourcePage": 7
       },
       {
@@ -617,7 +617,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Bebidas calientes Chocolate artesanal.jpg",
         "sourcePage": 7
       }
     ]
@@ -634,7 +634,7 @@ const MENU = [
         "price": 60,
         "description": "Vainilla, cajeta, moka.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Especiales Capuccino.jpg",
         "sourcePage": 7
       },
       {
@@ -643,7 +643,7 @@ const MENU = [
         "price": 75,
         "description": "Baileys, rompope, whisky.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Especiales Capuccino especial.jfif",
         "sourcePage": 7
       },
       {
@@ -652,7 +652,7 @@ const MENU = [
         "price": 80,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Especiales Irlandés.jpeg",
         "sourcePage": 7
       },
       {
@@ -661,7 +661,7 @@ const MENU = [
         "price": 75,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Especiales Té Chai.jpg",
         "sourcePage": 7
       },
       {
@@ -670,7 +670,7 @@ const MENU = [
         "price": 75,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Especiales Té Chai + espresso.webp",
         "sourcePage": 7
       }
     ]
@@ -687,7 +687,7 @@ const MENU = [
         "price": 35,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Tés.jpeg",
         "sourcePage": 7
       },
       {
@@ -696,7 +696,7 @@ const MENU = [
         "price": 35,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Té frío.jpg",
         "sourcePage": 7
       },
       {
@@ -705,7 +705,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Té frutos rojos natural (tisana).jfif",
         "sourcePage": 7
       },
       {
@@ -714,7 +714,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Té frutos rojos natural frío (tisana).jfif",
         "sourcePage": 7
       }
     ]
@@ -731,7 +731,7 @@ const MENU = [
         "price": 75,
         "description": "Oreo, tradicional, moka, cajeta, vainilla.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Clásicos oreo.jfif",
         "sourcePage": 8
       },
       {
@@ -740,7 +740,7 @@ const MENU = [
         "price": 95,
         "description": "Nutella, Baileys, rompope, Té Chai.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Especiales.webp",
         "sourcePage": 8
       },
       {
@@ -749,7 +749,7 @@ const MENU = [
         "price": 60,
         "description": "Fresa, chocolate.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Malteada, Fresa, chocolate.jpg",
         "sourcePage": 8
       },
       {
@@ -758,7 +758,7 @@ const MENU = [
         "price": 75,
         "description": "Whisky, espresso frío, canela.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Escocés Wisky.jfif",
         "sourcePage": 8
       },
       {
@@ -767,7 +767,7 @@ const MENU = [
         "price": 105,
         "description": "Espresso + Licor 43.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Carajillo.jpg",
         "sourcePage": 8
       },
       {
@@ -776,7 +776,7 @@ const MENU = [
         "price": 105,
         "description": "Espresso + Baileys + Leche Clavel.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Carajillo Baileys.jpg",
         "sourcePage": 8
       },
       {
@@ -785,7 +785,7 @@ const MENU = [
         "price": 105,
         "description": "Ristreto + Licor 43 + Leche Clavel.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Neruda.jpg",
         "sourcePage": 8
       },
       {
@@ -794,7 +794,7 @@ const MENU = [
         "price": 110,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frappé Niño dorado.jfif",
         "sourcePage": 8
       }
     ]
@@ -811,7 +811,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Cerveza Negra Modelo.webp",
         "sourcePage": 9
       },
       {
@@ -820,7 +820,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Cerveza Modelo Especial.webp",
         "sourcePage": 9
       },
       {
@@ -829,7 +829,7 @@ const MENU = [
         "price": 55,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Cerveza Victoria.webp",
         "sourcePage": 9
       },
       {
@@ -838,7 +838,7 @@ const MENU = [
         "price": 120,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Cerveza Artesanal importada.png",
         "sourcePage": 9
       }
     ]
@@ -864,7 +864,7 @@ const MENU = [
             "price": 45
           }
         ],
-        "image": null,
+        "image": "imagenes/Aguas Limonada.jpg",
         "sourcePage": 9
       },
       {
@@ -882,7 +882,7 @@ const MENU = [
             "price": 45
           }
         ],
-        "image": null,
+        "image": "imagenes/Aguas Naranjada.jpg",
         "sourcePage": 9
       },
       {
@@ -900,7 +900,7 @@ const MENU = [
             "price": 45
           }
         ],
-        "image": null,
+        "image": "imagenes/Aguas Limonada Pepino.jfif",
         "sourcePage": 9
       },
       {
@@ -918,7 +918,7 @@ const MENU = [
             "price": 150
           }
         ],
-        "image": null,
+        "image": "imagenes/Jarra de agua.webp",
         "sourcePage": 9
       }
     ]
@@ -935,7 +935,7 @@ const MENU = [
         "price": 130,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Old Parr 12.png",
         "sourcePage": 9
       },
       {
@@ -944,7 +944,7 @@ const MENU = [
         "price": 190,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Macalan 12.png",
         "sourcePage": 9
       },
       {
@@ -953,7 +953,7 @@ const MENU = [
         "price": 120,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Don Julio 70.png",
         "sourcePage": 9
       },
       {
@@ -962,7 +962,7 @@ const MENU = [
         "price": 100,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Tanqueray.png",
         "sourcePage": 9
       },
       {
@@ -971,7 +971,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Licor 43.webp",
         "sourcePage": 9
       },
       {
@@ -980,7 +980,7 @@ const MENU = [
         "price": 170,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Glenlivet 12.webp",
         "sourcePage": 9
       },
       {
@@ -989,7 +989,7 @@ const MENU = [
         "price": 150,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Glenlivet.webp",
         "sourcePage": 9
       },
       {
@@ -998,7 +998,7 @@ const MENU = [
         "price": 120,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Mezcal.webp",
         "sourcePage": 9
       },
       {
@@ -1007,7 +1007,7 @@ const MENU = [
         "price": 130,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Maestro Dobel.webp",
         "sourcePage": 9
       },
       {
@@ -1016,7 +1016,7 @@ const MENU = [
         "price": 130,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Etiqueta negra.png",
         "sourcePage": 9
       },
       {
@@ -1025,7 +1025,7 @@ const MENU = [
         "price": 50,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Sangrita.png",
         "sourcePage": 9
       },
       {
@@ -1034,7 +1034,7 @@ const MENU = [
         "price": 100,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Torres 10.png",
         "sourcePage": 9
       },
       {
@@ -1043,7 +1043,7 @@ const MENU = [
         "price": 130,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Buchanans 12.webp",
         "sourcePage": 9
       },
       {
@@ -1052,7 +1052,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Black and white.webp",
         "sourcePage": 9
       },
       {
@@ -1061,7 +1061,7 @@ const MENU = [
         "price": 120,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Cuervo Especial.webp",
         "sourcePage": 9
       },
       {
@@ -1070,7 +1070,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Baileys.webp",
         "sourcePage": 9
       },
       {
@@ -1079,7 +1079,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Bacardi Blanco.png",
         "sourcePage": 9
       },
       {
@@ -1088,7 +1088,7 @@ const MENU = [
         "price": 100,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Copa de vino tinto.png",
         "sourcePage": 9
       },
       {
@@ -1097,7 +1097,7 @@ const MENU = [
         "price": 130,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Brandy.png",
         "sourcePage": 9
       },
       {
@@ -1106,7 +1106,7 @@ const MENU = [
         "price": 80,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Etiqueta roja.png",
         "sourcePage": 9
       },
       {
@@ -1115,7 +1115,7 @@ const MENU = [
         "price": 110,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Frangelico.png",
         "sourcePage": 9
       },
       {
@@ -1124,7 +1124,7 @@ const MENU = [
         "price": 110,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Sambuca.png",
         "sourcePage": 9
       },
       {
@@ -1133,7 +1133,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Posh.webp",
         "sourcePage": 9
       },
       {
@@ -1142,7 +1142,7 @@ const MENU = [
         "price": 120,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Posh con trufa.webp",
         "sourcePage": 9
       }
     ]
@@ -1159,7 +1159,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Copa de Clericot.png",
         "sourcePage": 9
       },
       {
@@ -1168,7 +1168,7 @@ const MENU = [
         "price": 230,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Jarra de Clericot.jfif",
         "sourcePage": 9
       },
       {
@@ -1177,7 +1177,7 @@ const MENU = [
         "price": 90,
         "description": "Kiwi, fresa.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Mojito.jpg",
         "sourcePage": 9
       },
       {
@@ -1186,7 +1186,7 @@ const MENU = [
         "price": 190,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Mojito por litro.jfif",
         "sourcePage": 9
       },
       {
@@ -1195,7 +1195,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Hawaiano Azul.jfif",
         "sourcePage": 9
       },
       {
@@ -1204,7 +1204,7 @@ const MENU = [
         "price": 100,
         "description": "Fresa, limón.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Daiquiri.jpg",
         "sourcePage": 9
       },
       {
@@ -1213,7 +1213,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Sex on the beach.jpg",
         "sourcePage": 9
       },
       {
@@ -1222,7 +1222,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Tequila sunrise.webp",
         "sourcePage": 9
       },
       {
@@ -1231,7 +1231,7 @@ const MENU = [
         "price": 105,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Cielo rojo.jfif",
         "sourcePage": 9
       },
       {
@@ -1240,7 +1240,7 @@ const MENU = [
         "price": 85,
         "description": "Limón, fresa.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Margarita.jpg",
         "sourcePage": 9
       },
       {
@@ -1249,7 +1249,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Piña Colada.jpg",
         "sourcePage": 9
       },
       {
@@ -1258,7 +1258,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Sangría.jpg",
         "sourcePage": 9
       },
       {
@@ -1267,7 +1267,7 @@ const MENU = [
         "price": 260,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Jarra de Sangría.jfif",
         "sourcePage": 9
       },
       {
@@ -1276,7 +1276,7 @@ const MENU = [
         "price": 100,
         "description": "Clásico, fresa, pepino.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Gin Tonic.jpg",
         "sourcePage": 9
       },
       {
@@ -1285,7 +1285,7 @@ const MENU = [
         "price": 105,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Mezcalina maracuyá.jpg",
         "sourcePage": 9
       },
       {
@@ -1294,7 +1294,7 @@ const MENU = [
         "price": 100,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Tinto de verano.jpg",
         "sourcePage": 9
       }
     ]
