@@ -216,7 +216,7 @@ const MENU = [
         "price": 150,
         "description": "Arrachera gratinada, con pimientos y cebollas salteadas y tomate. Acompañado de papas chips.",
         "variants": [],
-        "image": "imagenes/Baguette Arrachera.jfif",
+        "image": "imagenes/Baguettes Arrachera.jfif",
         "sourcePage": 3
       },
       {
@@ -225,7 +225,7 @@ const MENU = [
         "price": 120,
         "description": "Pechuga gratinada y tomate. Acompañado de papas chips.",
         "variants": [],
-        "image": "imagenes/Baguette Pollo.jpg",
+        "image": "imagenes/Baguettes Pollo.jpg",
         "sourcePage": 3
       },
       {
@@ -234,7 +234,7 @@ const MENU = [
         "price": 140,
         "description": "Chistorra gratinada y tomate.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Baguettes Chistorra.jfif",
         "sourcePage": 3
       },
       {
@@ -243,7 +243,7 @@ const MENU = [
         "price": 140,
         "description": "Acompañado de tomates salteados con orégano, aceite de oliva y queso. Acompañado de papas chips.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Baguettes Jamón serrano.jpg",
         "sourcePage": 3
       }
     ]
@@ -260,7 +260,7 @@ const MENU = [
         "price": 130,
         "description": "Jugosa carne a la parrilla con delicioso pan artesanal 100% de leche y mantequilla, tomate fresco y lechuga italiana.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Hamburguesa Clásica.png",
         "sourcePage": 3
       },
       {
@@ -269,7 +269,7 @@ const MENU = [
         "price": 160,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Hamburguesa Uruapan Burguer.jfif",
         "sourcePage": 3
       },
       {
@@ -278,7 +278,7 @@ const MENU = [
         "price": 180,
         "description": "Jugosa carne de nuestra selección gratinada con queso holandés y champiñones frescos.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Hamburguesa Hamburguesa Neruda.jfif",
         "sourcePage": 3
       }
     ]
@@ -295,7 +295,7 @@ const MENU = [
         "price": 140,
         "description": "Pasta alfredo acompañada de fajitas de pollo y cremosa salsa de brócoli.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Pasta El poder del ahora.jfif",
         "sourcePage": 4
       },
       {
@@ -304,7 +304,7 @@ const MENU = [
         "price": 180,
         "description": "Cremosa pasta con salsa de espinacas, camarón y tocino.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Pasta Fetuccini Neruda.jpg",
         "sourcePage": 4
       },
       {
@@ -313,7 +313,7 @@ const MENU = [
         "price": 145,
         "description": "Preparada con salsa pomodoro y carne al laurel.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Pasta Spaguetti a la boloñesa.png",
         "sourcePage": 4
       },
       {
@@ -322,7 +322,7 @@ const MENU = [
         "price": 240,
         "description": "Pasta frutti di mare con camarones, calamares, mejillones y pulpo, en una exquisita salsa de tomate con un toque mediterráneo.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Pasta Frutti di mare.jpg",
         "sourcePage": 4
       },
       {
@@ -344,7 +344,7 @@ const MENU = [
             "price": 430
           }
         ],
-        "image": null,
+        "image": "imagenes/Pasta fusion.jpg",
         "sourcePage": 4
       }
     ]
@@ -361,7 +361,7 @@ const MENU = [
         "price": 150,
         "description": "Lechuga italiana, queso gouda, chimichurri, tomate cherry y vinagre balsámico.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Ensalada Arrachera.jpeg",
         "sourcePage": 4
       },
       {
@@ -370,7 +370,7 @@ const MENU = [
         "price": 140,
         "description": "Lechuga silvestre, manzana, arándano, fresa, queso de cabra, nuez y vinagreta de mango y chabacano.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Ensalada Manzana y frutos rojos.jpg",
         "sourcePage": 4
       },
       {
@@ -379,7 +379,7 @@ const MENU = [
         "price": 150,
         "description": "Lechuga italiana, queso gouda, chimichurri, tomate cherry y vinagre balsámico.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Ensalada Salmón.webp",
         "sourcePage": 4
       },
       {
@@ -388,7 +388,7 @@ const MENU = [
         "price": 150,
         "description": "Camarón con aderezo cesar de la casa, crutones y queso espolvoreado.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Ensalada Cesar con camarones.jfif",
         "sourcePage": 4
       },
       {
@@ -397,7 +397,7 @@ const MENU = [
         "price": 120,
         "description": "Pollo con aderezo mil islas, queso manchego y pimiento rojo.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Ensalada Pollo con jamón.jpg",
         "sourcePage": 4
       }
     ]
@@ -432,7 +432,7 @@ const MENU = [
         "price": 550,
         "description": "Su principal característica es su suavidad, su intenso sabor y marmoleo mixto, lo vuelve irresistible.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Rib Eye a la parrilla.jpg",
         "sourcePage": 5
       },
       {
@@ -441,7 +441,7 @@ const MENU = [
         "price": 350,
         "description": "En Argentina se conoce como entraña, corte famoso por su suavidad y 0 grasa.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Parrilla Arrachera a la parrilla.webp",
         "sourcePage": 5
       },
       {
@@ -450,7 +450,7 @@ const MENU = [
         "price": 400,
         "description": "Asada al punto perfecto, esta delicia se realza con un toque de sal gruesa y especias selectas, resaltando su sabor natural.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Parrilla Picaña a la parrilla.jpg",
         "sourcePage": 5
       },
       {
@@ -459,7 +459,7 @@ const MENU = [
         "price": 450,
         "description": "Corte de carne magra, su intenso sabor lo hace incomparable. Se recomienda término 3/4. Sugerencia de maridaje: vino tinto Cabernet.",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Parrilla Vacío a la parrilla.webp",
         "sourcePage": 5
       }
     ]
@@ -476,7 +476,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Crepa Salada Jamón, queso y espinaca.jpg",
         "sourcePage": 6
       },
       {
