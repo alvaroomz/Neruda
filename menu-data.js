@@ -93,7 +93,7 @@ const MENU = [
         "price": 180,
         "description": "",
         "variants": [],
-        "image": "imagenes/Mollejas de ternera.png",
+        "image": "imagenes/Mollejas de ternero.jpg",
         "sourcePage": 1
       },
       {
