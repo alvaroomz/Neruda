@@ -687,7 +687,7 @@ const MENU = [
         "price": 35,
         "description": "",
         "variants": [],
-        "image": "imagenes/Tés.jpeg",
+        "image": "imagenes/Tés.png",
         "sourcePage": 7
       },
       {
