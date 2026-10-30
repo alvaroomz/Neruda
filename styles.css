@@ -8,3 +8,20 @@
 @media(max-width:599px){.visual-inner{height:180px}.visual-caption{overflow:auto}.menu-section{scroll-margin-top:280px}.product{scroll-margin-top:300px}#products{padding-bottom:45vh}}
 /* El scroll-padding del documento evita duplicar el desplazamiento de las anclas. */
 .menu-section{scroll-margin-top:0}
+
+.location-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 20px;
+    background-color: #281b17;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #c5a47e;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.location-link:hover {
+    background-color: #493229;
+}
