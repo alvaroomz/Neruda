@@ -758,7 +758,7 @@ const MENU = [
         "price": 75,
         "description": "Whisky, espresso frío, canela.",
         "variants": [],
-        "image": "imagenes/Frappé Escocés Wisky.jfif",
+        "image": "imagenes/Frappé Escocés Wisky.png",
         "sourcePage": 8
       },
       {
