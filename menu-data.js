@@ -432,7 +432,7 @@ const MENU = [
         "price": 550,
         "description": "Su principal característica es su suavidad, su intenso sabor y marmoleo mixto, lo vuelve irresistible.",
         "variants": [],
-        "image": "imagenes/ParrillaRib Eye a la parrilla.jpg",
+        "image": "imagenes/Parrilla Rib Eye a la parrilla.jpg",
         "sourcePage": 5
       },
       {
