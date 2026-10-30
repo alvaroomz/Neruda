@@ -1088,7 +1088,7 @@ const MENU = [
         "price": 100,
         "description": "",
         "variants": [],
-        "image": "imagenes/Copa de vino tinto.png",
+        "image": "imagenes/Copa de vino tinto.webp",
         "sourcePage": 9
       },
       {
