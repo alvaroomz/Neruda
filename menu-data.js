@@ -502,7 +502,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Dulces cajeta.png",
         "sourcePage": 6
       },
       {
@@ -511,7 +511,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Dulces nutella y filadelphia.png",
         "sourcePage": 6
       },
       {
@@ -520,7 +520,7 @@ const MENU = [
         "price": 85,
         "description": "",
         "variants": [],
-        "image": null,
+        "image": "imagenes/Dulces frutos rojos.png",
         "sourcePage": 6
       }
     ]
