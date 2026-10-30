@@ -1061,7 +1061,7 @@ const MENU = [
         "price": 120,
         "description": "",
         "variants": [],
-        "image": "imagenes/Cuervo Especial.webp",
+        "image": "imagenes/Cuervo Especial.png",
         "sourcePage": 9
       },
       {
