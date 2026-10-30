@@ -476,7 +476,7 @@ const MENU = [
         "price": 90,
         "description": "",
         "variants": [],
-        "image": "imagenes/Crepa Salada Jamón, queso y espinaca.jpg",
+        "image": "imagenes/Crepa salada Jamón, queso y espinaca.jpg",
         "sourcePage": 6
       },
       {
