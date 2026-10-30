@@ -322,7 +322,7 @@ const MENU = [
         "price": 240,
         "description": "Pasta frutti di mare con camarones, calamares, mejillones y pulpo, en una exquisita salsa de tomate con un toque mediterráneo.",
         "variants": [],
-        "image": "imagenes/Pasta Frutti di mare.jpg",
+        "image": "imagenes/Pastas Frutti di mare.jpg",
         "sourcePage": 4
       },
       {
