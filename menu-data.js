@@ -670,7 +670,7 @@ const MENU = [
         "price": 75,
         "description": "",
         "variants": [],
-        "image": "imagenes/Especiales Té Chai + espresso.png",
+        "image": "imagenes/Especiales Té Chai espresso.png",
         "sourcePage": 7
       }
     ]
