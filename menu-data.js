@@ -1267,7 +1267,7 @@ const MENU = [
         "price": 260,
         "description": "",
         "variants": [],
-        "image": "imagenes/Jarra de Sangría.jfif",
+        "image": "imagenes/Jarra de Sangría.jpg",
         "sourcePage": 9
       },
       {
