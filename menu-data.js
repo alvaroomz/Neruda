@@ -776,7 +776,7 @@ const MENU = [
         "price": 105,
         "description": "Espresso + Baileys + Leche Clavel.",
         "variants": [],
-        "image": "imagenes/Frappé Carajillo Baileys.jpg",
+        "image": "imagenes/Frappé Carajillo Baileys.png",
         "sourcePage": 8
       },
       {
