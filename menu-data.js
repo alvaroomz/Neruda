@@ -397,7 +397,7 @@ const MENU = [
         "price": 120,
         "description": "Pollo con aderezo mil islas, queso manchego y pimiento rojo.",
         "variants": [],
-        "image": "imagenes/Ensaladas Pollo con jamón.jpeg",
+        "image": "imagenes/Ensaladas pollo con jamón.jpeg",
         "sourcePage": 4
       }
     ]
