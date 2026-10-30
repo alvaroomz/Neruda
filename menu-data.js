@@ -120,7 +120,7 @@ const MENU = [
         "price": 60,
         "description": "",
         "variants": [],
-        "image": "imagenes/Papas a la francesa.jpg",
+        "image": "imagenes/papas a la francesa.webp",
         "sourcePage": 1
       }
     ]
