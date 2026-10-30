@@ -199,7 +199,7 @@ const MENU = [
         "price": 140,
         "description": "3 piezas. Preparados con tortilla de harina.",
         "variants": [],
-        "image": "imagenes/Chistorra.jpg",
+        "image": "imagenes/Tacos chistorra.png",
         "sourcePage": 2
       }
     ]
