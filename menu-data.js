@@ -749,7 +749,7 @@ const MENU = [
         "price": 60,
         "description": "Fresa, chocolate.",
         "variants": [],
-        "image": "imagenes/Frappé Malteada, Fresa, chocolate.jpg",
+        "image": "imagenes/Frappé Malteada Fresa, chocolate.jpg",
         "sourcePage": 8
       },
       {
