@@ -731,7 +731,7 @@ const MENU = [
         "price": 75,
         "description": "Oreo, tradicional, moka, cajeta, vainilla.",
         "variants": [],
-        "image": "imagenes/Frappé Clásicos oreo.jfif",
+        "image": "imagenes/Frappé Clásicos oreo.png",
         "sourcePage": 8
       },
       {
