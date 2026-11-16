@@ -4,6 +4,129 @@ const money = value => typeof value === 'number' ? `$${value}` : (value || '');
 const el = (tag, className, text) => { const node = document.createElement(tag); if (className) node.className = className; if (text !== undefined) node.textContent = text; return node; };
 const items = new Map(), cards = [], categoryLinks = new Map();
 const products = document.querySelector('#products'), nav = document.querySelector('#categories');
+// Productos que tienen variantes registradas con códigos propios en Neon.
+const ORDER_VARIANT_IDS = new Set([
+    'p-3',
+    'p-5',
+    'p-11',
+    'p-28',
+    'p-75',
+    'p-76',
+    'p-77',
+    'p-78'
+]);
+
+// Productos que tienen un solo código en Neon, pero permiten elegir sabor.
+const FLAVOR_OPTIONS = {
+    'p-54': ['Vainilla', 'Cajeta', 'Moka'],
+    'p-63': ['Oreo', 'Tradicional', 'Moka', 'Cajeta', 'Vainilla'],
+    'p-65': ['Fresa', 'Chocolate']
+};
+
+// Productos con precio fijo y código propio en Neon.
+const ORDER_FIXED_IDS = new Set([
+    ...Array.from({ length: 34 }, (_, i) => `p-${i + 1}`)
+        .filter(id => !ORDER_VARIANT_IDS.has(id)),
+    ...Array.from({ length: 19 }, (_, i) => `p-${i + 36}`),
+    ...Array.from({ length: 7 }, (_, i) => `p-${i + 57}`),
+    'p-65'
+]);
+
+function variantSlug(name) {
+    return String(name)
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '');
+}
+
+function createOrderButton(item, code, price, variant = '') {
+    const button = el('button', 'vp-menu-order');
+
+    button.type = 'button';
+    button.dataset.vpOrder = '';
+    button.dataset.vpCode = code;
+    button.dataset.vpName = item.name;
+    button.dataset.vpPrice = String(price);
+
+    if (variant) {
+        button.dataset.vpVariant = variant;
+    }
+
+    button.textContent = variant
+        ? `Ordenar · ${variant} — ${money(price)}`
+        : `Ordenar — ${money(price)}`;
+
+    button.style.cssText = [
+        'display:block',
+        'width:100%',
+        'margin-top:12px',
+        'padding:11px 14px',
+        'border:0',
+        'border-radius:9px',
+        'background:#70452f',
+        'color:#fff',
+        'font-size:13px',
+        'font-weight:700',
+        'cursor:pointer'
+    ].join(';');
+
+    return button;
+}
+
+function addOrderOptions(card, item) {
+    const orderBox = el('div', 'vp-order-options');
+
+    // Productos con variantes que tienen códigos individuales en Neon.
+    if (ORDER_VARIANT_IDS.has(item.id)) {
+        item.variants.forEach(variant => {
+            const code = `${item.id}-${variantSlug(variant.name)}`;
+
+            orderBox.append(
+                createOrderButton(
+                    item,
+                    code,
+                    variant.price,
+                    variant.name
+                )
+            );
+        });
+
+        if (item.variants.length) card.append(orderBox);
+        return;
+    }
+
+    // Productos que permiten seleccionar sabor con un único código.
+    if (FLAVOR_OPTIONS[item.id]) {
+        FLAVOR_OPTIONS[item.id].forEach(flavor => {
+            orderBox.append(
+                createOrderButton(
+                    item,
+                    item.id,
+                    item.price,
+                    flavor
+                )
+            );
+        });
+
+        card.append(orderBox);
+        return;
+    }
+
+    // Productos normales con precio fijo y código registrado.
+    if (ORDER_FIXED_IDS.has(item.id) && item.price !== null) {
+        orderBox.append(
+            createOrderButton(
+                item,
+                item.id,
+                item.price
+            )
+        );
+
+        card.append(orderBox);
+    }
+}
 MENU.forEach((category, index) => {
     const link = el('a', '', category.name); link.href = `#${category.id}`; link.addEventListener('click', event => { const target = document.getElementById(category.id); if (Math.abs(target.getBoundingClientRect().top) > innerHeight * 2) { event.preventDefault(); target.scrollIntoView({ behavior: 'instant', block: 'start' }); history.replaceState(null, '', `#${category.id}`); schedule(); } }); nav.append(link); categoryLinks.set(category.id, link);
     const section = el('section', 'menu-section'); section.id = category.id; section.setAttribute('aria-labelledby', `${category.id}-title`);
@@ -13,8 +136,28 @@ MENU.forEach((category, index) => {
     category.items.forEach(item => {
         const card = el('article', 'product'); card.id = item.id; cards.push(card); items.set(item.id, { ...item, category });
         const top = el('div', 'product-top'); top.append(el('h3', '', item.name)); if (item.price !== null) top.append(el('span', 'price', money(item.price))); card.append(top);
-        if (item.description) card.append(el('p', 'description', item.description));
-        if (item.variants.length) { const list = el('ul', 'variants'); item.variants.forEach(v => { const li = el('li'); li.append(el('span', '', v.name), el('span', 'price', money(v.price))); list.append(li) }); card.append(list) }
+        if (item.description) {
+            card.append(el('p', 'description', item.description));
+        }
+
+        if (item.variants.length) {
+            const list = el('ul', 'variants');
+
+            item.variants.forEach(v => {
+                const li = el('li');
+                li.append(
+                    el('span', '', v.name),
+                    el('span', 'price', money(v.price))
+                );
+                list.append(li);
+            });
+
+            card.append(list);
+        }
+
+        // Generar automáticamente las opciones de pedido.
+        addOrderOptions(card, item);
+
         section.append(card);
     }); products.append(section);
 });
